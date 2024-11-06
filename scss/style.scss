@@ -1,0 +1,243 @@
+@import "_null";
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 120%;
+    button{
+        cursor: pointer;
+    }
+}
+
+.black_ad {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    padding-right: 20%;
+    font-size: 90%;
+    span{
+        text-wrap: nowrap;
+    }
+}
+.adress{
+    text-decoration: underline;
+}
+nav{
+    position: relative;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+        li{
+            padding: 0 8px;
+            text-wrap: nowrap;
+        }
+    }
+
+}
+.logo {
+    width: 10%;
+}
+#zakaz_call{
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    font-size: 80%;
+    text-decoration: underline;
+}
+
+
+
+.sec1{
+    padding: 20px 30px;
+    color: white;
+    background-image: url(../img/5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 700px;
+    div{
+        
+        ul{
+            padding: 20px 0;
+            li{
+                padding: 10px 0;
+                display: flex;
+                img{
+                    width: 4%;
+                    margin-right: 10px;
+                    object-fit:contain;
+                    
+                }
+                p{
+                padding-top: 5px;
+                }
+                
+            }
+        }
+    }
+    
+}
+.polovina{
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        padding-bottom: 20px;
+    }
+}
+.dates{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0;
+}
+.date{
+    display: flex;
+    padding: 10px;
+    margin: 0 10px;
+    width: 100%;
+    justify-content: space-between;
+    input{
+        height: 100%;
+        width: 100%;
+        border: 0;
+        background-color: white;
+        padding: 12px;
+        border-radius:  9px 0 0 9px ;
+        padding-left: 10px;
+    }
+    button{
+        border: 0;
+        height: 100%;
+        border-radius:  0 9px 9px 0 ;
+        background-color: white;
+        width: 45px;
+        padding-right: 7px;
+
+    }
+}
+.kalendar{
+    object-fit: contain;
+    padding-right: 0;
+    height: 100%;
+
+}
+.categories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.greencard{
+    
+    background-color: rgba(57, 123, 6, 0.5);
+    border-radius: 20px;
+    padding: 30px 30px;
+    width: 80%;
+    padding-bottom: 50px;
+}
+
+.checks{
+    padding: 10px;
+    display: flex;
+    label{
+        margin-right: 50px;
+    }
+}
+.znat_vse{
+    background-color: rgba(78, 123, 6, 0.851);
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 0;
+    border: 2px solid rgb(255, 255, 255);
+    color:white;
+}
+.categories{
+    padding: 20px 0;
+}
+.sec2{
+    padding: 50px 70px;
+}
+.sec3 {
+    margin: 0 40px;
+    h1{
+        margin-bottom: 40px;
+    }
+}
+.vidi_auto {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.category_but{
+    display: flex;
+    border: 0;
+    align-items:center;
+    justify-content: space-between;
+    background-color: rgb(212, 212, 212);
+    margin: 0 10px;
+    padding: 10px 80px;
+    p{
+        padding-left: 30px;
+        
+    }
+
+}
+.cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+}
+.card_image {
+    margin-bottom: 20px;
+    width: 100%;
+    max-height: 350px;
+    //height: 30vh;
+    object-fit: cover;
+}
+.opisanie{
+    display: flex;
+}
+.haract {
+    width: 50%;
+    span{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        img{
+            padding-right: 10px;
+            width: 20%;
+        }
+        p{
+            text-wrap: nowrap;
+        }
+    }
+}
+.price {
+    h2{
+        text-wrap: nowrap;
+    }
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.zabronirovat{
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: rgba(17, 110, 22, 0.37);
+    border: 0;
+    border-radius: 1px;
+    color: white;
+}
